@@ -1,0 +1,43 @@
+html,body,ul,li,button{
+    margin :0;
+    padding:0;
+}
+img{
+    
+    border: 0;
+}
+button{
+    border:0;
+    background:none;
+}
+
+.slide{
+    
+    width:600px;
+      height: 340px;
+    left: 350px;
+    top: 20px;
+    overflow: hidden;
+    
+    position: relative;
+	
+}
+.slide ul{
+    width: 3000px;
+    list-style: none;
+    font-size: 0;
+}
+.slide ul li{
+    display: inline-block;
+
+}
+.slide button.prev{
+    position: absolute;
+    left: 0;
+    top:130px;
+}	
+.slide button.next{
+    position: absolute;
+    right: 0;
+    top:130px;
+}

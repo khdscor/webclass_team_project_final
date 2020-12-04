@@ -1,0 +1,64 @@
+.img0{           
+   height: 230px;
+   width: 1300px;
+   
+   background-color: rgba(221, 241, 173, 0.918);
+    z-index: -1;
+    
+   }
+   
+ 
+   
+    .content{
+    position: absolute;
+    top: 94px;
+    left:420px;
+    font-size: 45px;
+    color: rgb(0, 123, 255);
+    z-index: 2;
+   
+   }
+    
+   .btn1 {
+      position: absolute;
+      top: 30px;
+      left:1010px;
+      font-weight: 600;
+      font-size: 18px;
+      font-family: 'Gamja Flower', cursive;
+       
+     white-space: nowrap;
+     vertical-align: middle;
+      border: 3px solid transparent;
+      padding: 8px;
+  
+     line-height: 1.5;
+      border-color:#007bff;
+      border-radius: 0.25rem;
+         z-index: 3;
+          }
+  
+      .btn2 {
+      position: absolute;
+      top: 30px;
+      left:1150px;
+      font-weight: 600;
+      font-size: 18px;
+     white-space: nowrap;
+     vertical-align: middle;
+      border: 3px solid transparent;
+     padding: 8px;
+     font-family: 'Gamja Flower', cursive;
+  
+     line-height: 1.5;
+      border-color:#007bff;
+      border-radius: 0.25rem;
+         z-index: 3;
+          }
+   
+    .mainsrc{
+    position: absolute;
+    top: 20px;
+    left:260px;
+    z-index: 1;
+      }

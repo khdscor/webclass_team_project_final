@@ -1,0 +1,33 @@
+<body onload="myFunction()">
+
+  <div>
+   <img class="img0"  src="https://ifh.cc/g/DjDXO5.jpg" border: 0px;">
+  
+
+  <h2>
+    <a href="/" class="nav-link">Home</a>
+    <a href="/posts" class="nav-link">재능기부</a>
+    <a href="/posts1" class="nav-link">사진후기</a>
+ </h2>
+
+
+
+  <div class="content">
+    
+   </div>
+   <ul class="navbar-nav ml-auto">
+    <% if(isAuthenticated){ %>
+      <li class="nav-item btn1"><a href="/users/<%= currentUser.username %>" class="nav-link">My Account</a></li>
+      <li class="nav-item btn2"><a href="/logout" class="nav-link">Logout</a></li>
+    <% } else { %>
+      <li class="nav-item btn1"><a href="/users/new" class="nav-link"> s i n g &nbsp;  u p</a></li>
+      <li class="nav-item btn2"><a href="/login" class="nav-link">Log in</a></li>
+    <% } %>
+    </ul>
+      
+    </div>
+ 
+ 
+
+  
+
