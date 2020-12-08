@@ -1,6 +1,7 @@
 
 서버 시동시 npm install --save ejs express mongoose body-parser method-override bcryptjs express-session connect-flash passport passport-local box-node-sdk multer
  를 입력하여 필요한 것들을 install 해야 한다.
+ 설치하고 node index.js 로 서버를 연다.
    
 참고사항 및 사이트
 1. jumbotron이라는 class를 사용하였는데, 이는 bootstrap에서 제공하는 형식이며 이는 https://getbootstrap.com/docs/4.4/components/jumbotron 에서 자세한 설명을 볼 수 있고 사용할 수 있다.
